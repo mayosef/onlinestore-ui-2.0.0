@@ -1,0 +1,60 @@
+
+@import './node_modules/bootstrap/scss/bootstrap';
+
+body {
+    background-color:white;
+}
+
+ .welcome {
+     display:flex;
+     align-items:center;
+     justify-content: center;
+     align-content: center;
+     flex-direction: column;
+ }
+
+ .invoiceTable {
+     display: flex;
+     flex-direction: row;
+     color:red;
+     padding:1.5em;
+ }
+
+ .rowTable {
+     display:flex;
+     flex-direction: row;
+ }
+
+ .welcome {
+   display:flex;
+   align-content: center;
+   align-items:center;
+ }
+
+
+.user-avatar {
+    width: 140px;
+    height: 140px;
+    margin: auto;
+    overflow: hidden;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+ }
+ .user-info {
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+ }
+    .profile {
+    background-color: white;
+    padding: 1.5rem;
+    box-shadow: 0 0.2rem 0.6rem rgba(50, 50, 50, 0.15);
+  }
+
+  .cover {
+      background:url("https://www.petcurean.com/app/uploads/2019/03/Medically-Challenged_Blog-Header-800x440.jpg");
+      background-size: cover;
+  }
+  
